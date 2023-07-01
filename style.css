@@ -1,0 +1,65 @@
+* {
+  padding :0px;
+  margin:0px;
+}
+
+
+body{
+  background-color: aliceblue;
+}
+
+
+.container{
+  height: 100vh;
+  display: flex;
+ align-items:center;
+  justify-content: center; 
+}
+
+
+.inner-container{
+  height: 90vh;
+  width: 50%;
+  margin: 10px;
+  border-radius: 25px;
+  background: white no-repeat scroll center;
+  filter:grayscale(1);
+  flex:1;
+  transition: 0.5;
+}
+
+.inner-container h3 {
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  padding:15px;
+}
+
+
+
+.active {
+  flex:4;
+  filter:grayscale(0);
+}
+
+
+#inner-container-1{
+  background-image: url('./image/Mumbai.jpg');
+}
+
+#inner-container-2{
+  background-image: url('./image/merida-gettyimages-931809204.webp');
+}
+
+#inner-container-3{
+  background-image: url('./image/tokyo.jpg');
+}
+
+#inner-container-4{
+  background-image: url('./image/Africa.jpg');
+}
+
+#inner-container-5{
+  background-image: url('./image/Canada.webp');
+}
